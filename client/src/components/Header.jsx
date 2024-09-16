@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { FaSearch } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import { GiHamburgerMenu } from "react-icons/gi";
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
